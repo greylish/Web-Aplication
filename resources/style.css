@@ -1,0 +1,146 @@
+h2{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: 25px;
+    color: darkgreen;
+    text-align: center;
+    margin: 18px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: gray;
+}
+.navbar .logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+}
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: chartreuse;
+    padding: 6px 0;
+     text-decoration: none;
+}
+.navbar .menu a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+.one{
+    color: red;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img.png");
+    background-size: cover;
+    background-position: center;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: darkgreen;
+}
+.home .text-two{
+    font-size: 65px;
+    color: black;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 25px;
+    margin: 5px 0;
+    color: crimson;
+}
+.home .text-four{
+    color: orangered;
+    font-size: 23px;
+    margin: 5px 0;
+
+}
+.home .button{
+    margin: 14px 0;
+}
+.home .button button{
+    text-decoration-color: blue;
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 36px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.home .button button:hover{
+    background-color: crimson;
+    color: darkgreen;
+    border-color: darkcyan;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img_1.png");
+    background-size: cover;
+    background-position: center;
+}
+.about .about-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .new-one{
+      font-size: 25px;
+    color: darkred;
+     text-align: center;
+}
+.about .new-two{
+    font-size: 25px;
+    color: darkred;
+    margin-left: -3px;
+    text-align: center;
+}
+.about .button{
+    align-self: center;
+}
+.about .button button{
+     text-decoration-color: blue;
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 39px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: yellow;
+    border: 2px solid darkgreen;
+}
+.about .button button:hover{
+     background-color: peachpuff;
+    color: slateblue;
+    border-color: deeppink;
+}

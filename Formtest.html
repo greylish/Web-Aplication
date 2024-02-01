@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+   <style>
+       h1{
+           color: blue;
+           background-color: palevioletred;
+           text-align: center;
+           font-size: 30px;
+           font-family: "JetBrains Mono ExtraBold";
+       }
+       form{
+            background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    width: 700px;
+    align-self: center;
+       }
+       .input-box input{
+            border-radius: 6px;
+            padding: px;
+           border-radius: 5px;
+           background-color:lightgreen;
+       }
+       #input-button input {
+           color: red;
+           background-color: cyan;
+       }
+       .input-hub input{
+           color: chartreuse;
+           background-color: wheat;
+       }
+   </style>
+</head>
+<h1>Registration Form</h1>
+<body>
+<form>
+    <label>First Name</label>
+    <div class="input-box">
+    <input type="text">
+   </div>
+    <label>Last Name</label>
+    <div class="input-box">
+    <input type="text">
+        </div>
+    <br><br>
+    <label>User Name</label>
+    <div class="input-box">
+    <input type="text">
+        </div>
+    <br><br>
+    <label>Country</label>
+    <select name="dropdown">
+        <option>Kenya</option>
+        <option>Uganda</option>
+        <option>Tanzania</option>
+        <option>Nigeria</option>
+        <option>Ethiopia</option>
+        <option>D.R.C</option>
+        <option>Egypt</option>
+    </select>
+    <br><br>
+    <label>Password</label>
+    <div class="input-hub">
+    <input type="password">
+        </div>
+    <label>Confirmation Password</label>
+    <div class="input-hub">
+    <input type="password">
+        </div>
+    <br><br>
+    <div id="input-button">
+    <input type="reset" value="REGISTER">
+        </div>
+
+
+</form>
+
+</body>
+</html>

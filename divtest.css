@@ -1,0 +1,39 @@
+h2{
+    color: red;
+    font-size: 18px;
+}
+.navbar{
+    color: darkgreen;
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-space: 0 8px;
+}
+.navbar .logo a{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+.navbar .all-links{
+   align-content: center;
+    position: relative;
+    display: flex;
+}
+.navbar .all-links li{
+    color: darkgreen;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 8px;
+}
+.navbar .all-links a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.navbar .all-links a:hover{
+   color: rebeccapurple;
+    box-shadow: blue;
+    margin: 5px;
+text-underline-mode: ;
+
+}
